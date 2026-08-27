@@ -1,14 +1,73 @@
-# MCNuts APP
-![147183119_491843355551038_4736773095611486819_n](https://user-images.githubusercontent.com/74753713/147300901-64ef7b7b-4203-4427-9ccf-93664c90f4a5.jpg)
+# mc-nuts-behavioral-patterns
 
+> Patrones GoF Behavioral en C#
 
+![Language](https://img.shields.io/github/languages/top/J1u2a3n8/mc-nuts-behavioral-patterns)
+![License](https://img.shields.io/github/license/J1u2a3n8/mc-nuts-behavioral-patterns)
+![Last Commit](https://img.shields.io/github/last-commit/J1u2a3n8/mc-nuts-behavioral-patterns)
+![Stars](https://img.shields.io/github/stars/J1u2a3n8/mc-nuts-behavioral-patterns?style=social)
+![Issues](https://img.shields.io/github/issues/J1u2a3n8/mc-nuts-behavioral-patterns)
 
+## 📋 Descripción
 
+Proyecto destacado del portfolio - demuestra habilidades avanzadas en arquitectura y patrones. Migrado, historial reescrito, documentado para portfolio.
 
-# LANGUAGE
-* C#
+## 🏗️ Arquitectura
 
-# DESCRIPTION
-The peanut sales company in the form of McNuts snacks wants to be able to release new flavors of peanuts for a limited time and see if they could work in the future as an official flavor so it requires that your system is capable of alerting consumers when this type of flavor is out of production and can not be purchased for this same observer behavioral pattern was used to alert all customers whenever a flavor is discontinued by the administrator, on the other hand it is desired also to be able to have a direct access that includes everything to see the resources of the system already be clients, manis, administrators by means of a strategy for this same one the Inotifier was used in the ClientAccess like strategy so that of a more rapid and efficient way they can accede to the data of different resources.
+Clean Architecture (DDD): Presentation -> Application -> Domain -> Infrastructure
 
+## 🚀 Inicio Rápido
 
+### Prerrequisitos
+
+.NET 8 SDK, Visual Studio 2022 / VS Code + C# Dev Kit
+
+### Instalación
+
+```bash
+# Clonar
+git clone https://github.com/J1u2a3n8/mc-nuts-behavioral-patterns.git
+cd mc-nuts-behavioral-patterns
+
+dotnet restore
+# dotnet build
+```
+
+### Uso
+
+```bash
+dotnet run --project src/
+```
+
+## 🧪 Tests
+
+```bash
+dotnet test
+```
+
+## 📁 Estructura del Proyecto
+
+```
+mc-nuts-behavioral-patterns/
+├── src/              # Código fuente principal
+├── tests/            # Tests unitarios/integración
+├── docs/             # Documentación
+├── .github/          # Workflows CI/CD
+└── README.md
+```
+
+## 🛠️ Tech Stack
+
+**C#**, .NET 8, ASP.NET Core, Entity Framework, xUnit
+
+## 📄 Licencia
+
+Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+
+## 👤 Autor
+
+**J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
+
+---
+
+⭐ Si este proyecto te fue útil, ¡dale una estrella!
