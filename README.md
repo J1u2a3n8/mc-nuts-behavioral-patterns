@@ -1,6 +1,6 @@
 # mc-nuts-behavioral-patterns
 
-> Patrones GoF Behavioral en C#
+> GoF Behavioral Design Patterns in C#
 
 ![Language](https://img.shields.io/github/languages/top/J1u2a3n8/mc-nuts-behavioral-patterns)
 ![License](https://img.shields.io/github/license/J1u2a3n8/mc-nuts-behavioral-patterns)
@@ -8,24 +8,24 @@
 ![Stars](https://img.shields.io/github/stars/J1u2a3n8/mc-nuts-behavioral-patterns?style=social)
 ![Issues](https://img.shields.io/github/issues/J1u2a3n8/mc-nuts-behavioral-patterns)
 
-## 📋 Descripción
+## Description
 
-Proyecto destacado del portfolio - demuestra habilidades avanzadas en arquitectura y patrones. Migrado, historial reescrito, documentado para portfolio.
+Implementation of all 11 GoF Behavioral Design Patterns (Strategy, Observer, Command, State, Template Method, Chain of Responsibility, Mediator, Iterator, Visitor, Memento, Interpreter) with real-world examples in C#.
 
-## 🏗️ Arquitectura
+## Architecture
 
-Clean Architecture (DDD): Presentation -> Application -> Domain -> Infrastructure
+Pattern-based modular structure with isolated examples per pattern
 
-## 🚀 Inicio Rápido
+## Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
-.NET 8 SDK, Visual Studio 2022 / VS Code + C# Dev Kit
+.NET 8 SDK, Visual Studio 2022 / VS Code with C# Dev Kit
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar
+# Clone
 git clone https://github.com/J1u2a3n8/mc-nuts-behavioral-patterns.git
 cd mc-nuts-behavioral-patterns
 
@@ -33,41 +33,41 @@ dotnet restore
 # dotnet build
 ```
 
-### Uso
+### Usage
 
 ```bash
 dotnet run --project src/
 ```
 
-## 🧪 Tests
+## Testing
 
 ```bash
 dotnet test
 ```
 
-## 📁 Estructura del Proyecto
+## Project Structure
 
 ```
 mc-nuts-behavioral-patterns/
-├── src/              # Código fuente principal
-├── tests/            # Tests unitarios/integración
-├── docs/             # Documentación
-├── .github/          # Workflows CI/CD
+├── src/              # Main source code
+├── tests/            # Unit/integration tests
+├── docs/             # Documentation
+├── .github/          # CI/CD workflows
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**C#**, .NET 8, ASP.NET Core, Entity Framework, xUnit
+C#, .NET 8, xUnit
 
-## 📄 Licencia
+## License
 
-Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
-## 👤 Autor
+## Author
 
 **J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
 
 ---
 
-⭐ Si este proyecto te fue útil, ¡dale una estrella!
+⭐ If you found this project useful, give it a star!
